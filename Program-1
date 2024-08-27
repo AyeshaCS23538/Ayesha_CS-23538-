@@ -7,5 +7,5 @@ int main()
 }
 void show()
 {
-    std::cout << "Programming makes life interesting.";
+    cout << "Programming makes life interesting.";
 }
