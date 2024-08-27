@@ -1,0 +1,11 @@
+#include <iostream>
+void show(void);
+int main() 
+{
+    show();
+    return 0;
+}
+void show()
+{
+    std::cout << "Programming makes life interesting.";
+}
