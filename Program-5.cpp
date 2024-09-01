@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+void factorial(int n);
+int main() 
+{
+    int num;
+    char ch;
+    cout<<"Enter a number:";
+    cin>>num;
+    cout<<"Enter a charcter:";
+    cin>>ch;
+    shape(int n,char c);
+    return 0;
+}
+void shape(int n,char c)
+{
+    int i,j;
+    for(i=1;i<=n;i++)
+    {
+     cout<<endl;
+     for(j=1;j<=n;j++)
+	 cout<<c;	
+	}
+}
